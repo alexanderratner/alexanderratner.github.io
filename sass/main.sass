@@ -1,0 +1,150 @@
+$glo-green: #56AFAE
+$glo-yellow: #FCCB30
+
+.fade-out
+  opacity: 0
+
+#infowindow-image
+  overflow: hidden
+  top: -10px
+  width: 270px
+  height: 100px
+  // float: left
+  margin: 5px 0px 0px 0px
+
+#firstHeading
+  // font-size: 16px
+  max-width: 270px
+  // line-height: 10px
+
+#bodyContent
+  max-width: 270px
+
+#open-close
+  font-weight: bold
+
+
+html
+  height: 100%
+  margin: 0
+  padding: 0
+
+  body
+    height: 100%
+    margin: 0
+    padding: 0
+
+    footer
+      background-color: black
+      color: #FFF
+      height: 500px
+      bottom: 0px
+
+    .dropdown-burger
+      display: none
+      position: fixed
+      width: 100%
+      height: 100%
+      top: 0px
+      left: 0px
+      z-index: 1041
+      background-color: #F8F8F8
+      font-weight: bold
+      text-align: center
+      font-size: 60px
+      line-height: 70px
+      animation: fade 300ms
+      a
+        img
+          position: relative
+          top: 20px
+          right: -44%
+          z-index: 1042
+
+      ul
+        list-style: none
+        a
+          text-decoration: none
+          color: $glo-green
+          &:hover
+            color: $glo-yellow
+          li
+            margin: 10px
+
+    .navbar
+      background-color: $glo-green
+      a
+        .burger
+          float: left
+          margin: 10px 0px 0px 15px
+
+      .container
+        text-align: center
+        padding-top: 6px
+        .logo
+          margin: 0 auto
+
+      .projectID
+        float: right
+        color: #FFF
+        font-weight: bolder
+        font-size: 12px
+        margin: 19px 22px 0px 0px
+
+    .loader
+      opacity: 0.85
+      position: absolute
+      top: 0
+      left: 0
+      width: 100%
+      height: 100%
+      background:  #fff
+      z-index: 1021
+      display: none
+      align-items: center
+      justify-content: center
+
+      .load-message
+        text-align: center
+
+        img
+          height: 100%
+          width: 100%
+          animation: rotate 1s infinite
+
+    .intro-screen
+      margin: 0 auto
+      opacity: 0.95
+      position: absolute
+      top: 76px
+      left: 0
+      width: 100%
+      height: 100%
+      background: #fff
+      // z-index: 1020
+      opacity: 1
+      transition: opacity .6s
+
+      .container
+        .row
+          .col-md-6
+            margin: 30px 0px
+            img
+              width: 100%
+              height: auto
+
+    #map
+      height: 100%
+      // display: none
+
+@keyframes rotate
+  0%
+    transform: rotateY(0deg)
+  100%
+    transform: rotateY(360deg)
+
+@keyframes fade
+  0%
+    opacity: 0
+  100%
+    opacity: 0.95

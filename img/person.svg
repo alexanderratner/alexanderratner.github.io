@@ -1,0 +1,11 @@
+
+<svg width="35px" height="35px" viewBox="688 460 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="ic_profile" stroke="none" fill="none" transform="translate(688.000000, 460.000000)" stroke-width="1" fill-rule="evenodd">
+        <g id="profile" fill="#FCCB30">
+            <g transform="translate(12.500000, 4.166667)">
+                <circle id="Oval-3" cx="12.5" cy="8.33333333" r="8.33333333"></circle>
+                <path d="M0,41.6666667 L0,30.2083333 C0,23.8800706 5.13456922,18.75 11.4573768,18.75 L13.5426232,18.75 C19.8703577,18.75 25,23.8786792 25,30.2083333 L25,41.6666667 L0,41.6666667 Z" id="Rectangle"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,1 @@
+var request=require("request"),cheerio=require("cheerio");request("https://www.timeout.com/newyork/restaurants/best-donut-shops-in-new-york-city",function(e,t,r){if(!e&&200==t.statusCode){var $=cheerio.load(r),o=$("h3 a",".feature-item__column").map(function(e,t){return $(this).text()});console.log(o)}});
